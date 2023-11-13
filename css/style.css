@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+section {
+    min-height: 100vh;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.navbar {
+    transition: 0.5s ease-in-out;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+body{
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  transition: all 0.5s ease-in-out;
+}
+
+.themeicon {
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn-theme{
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+.nav-item {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.fas {
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    background-image: radial-gradient(circle, aquamarine , teal);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.15em solid #000; /* Border to mimic cursor */
+    width: 1; /* Start with a width of 0 */
+    animation: typewriter 1.5s steps(40), cursor-blink 1s infinite;
+    margin-top: 20px;
+  }
+  
+  /* Keyframes animation for the typewriter effect */
+  @keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  /* Keyframes animation for cursor blinking */
+  @keyframes cursor-blink {
+    0%, 100% { border-color: transparent; }
+    50% { border-color: var(--color); }
+  }
+
+.intro {
+    margin-top:20px;
+}
+
+.fab {
+    font-size: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.fab:hover {
+    color: teal;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.buttons .btn-theme {
+    color: white;
+    background-color: teal;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: teal;
+    border: transparent;
+}
+
+.nav-link:hover {
+    color: teal;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.navbar-nav {
+    background-color: var(--color);
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    transition: all 0.5s ease-in-out;
+  }
+
+.github-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card-title {
+    margin-bottom: 1rem;
+  }
+
+  .github-logo {
+    align-self: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: teal;
+  }
+

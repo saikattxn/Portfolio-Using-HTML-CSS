@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siff Server</title>
+  <link rel="icon" href="img/display1.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-theme="dark">
+  <div class="container">
+    <nav id="navbar" class="navbar navbar-expand-md fixed-top">
+      <a class="navbar-brand" href="index.html">Muhammad Al Asif</a>
+      <!-- Hamburger menu button for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-auto justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a type="button" href="#home" class="nav-link active btn btn-theme">Home</a>
+          </li>
+          <li class="nav-item">
+            <a type="button" href="#about" class="nav-link btn btn-theme">About</a>
+          </li>
+          <li class="nav-item">
+            <a type="button" href="#portfolio" class="nav-link btn btn-theme">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a type="button" href="#contact" class="nav-link btn btn-theme">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a type="button" class="btn btn-theme" onclick="toggleDarkMode()">
+              <i class="fas fa-moon" id="themeIcon"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0">
+    <section id="home">
+      <div class="container hero">
+        <div class="col-md-6">
+          <img src="img/display1.png" alt="Web Developer" class="img-fluid">
+        </div>
+        <div class="typewriter">
+          <h1>Muhammad Al Asif</h1>
+        </div>
+        <div class="intro">
+          <h4>Project Manager, Tech Que</h4>
+        </div>
+        <div class="social-links">
+          <button class="btn btn-theme" href="https://www.facebook.com/saikattxn" target="_blank"><i
+              class="fab fa-facebook-f"></i></button>
+          <button class="btn btn-theme" href="https://www.instagram.com/dimpsysif/" target="_blank"><i
+              class="fab fa-instagram"></i></a>
+            <button class="btn btn-theme" href="https://www.linkedin.com/in/saikattxn/" target="_blank"><i
+                class="fab fa-linkedin-in"></i></button>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-theme" href="#">Hire Me</button>
+          <button class="btn btn-theme" href="#">Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">About Me</h2>
+                <h4>Hello, I'm <strong>Muhammad Al Asif!</strong> </h4> Final-year student at IUB and aspiring project manager. Proven ability to lead teams, manage projects from inception to completion, and thrive in dynamic environments. Strong organizational and communication skills, coupled with a proactive and adaptable mindset. Eager to contribute academic knowledge and hands-on experience to drive project success.
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <h2 class="card-title">Work Experience</h2>
+                      <ul>
+                        <li>Project Manager at<a href="https://www.facebook.com/techqueit"
+                            target="_blank"> Tech Que</a></li>
+                        <li>Student Advisor at<a href="https://www.facebook.com/jukti.cse.iub"
+                            target="_blank"> JUKTI - Club of CSE</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <h2 class="card-title">Education</h2>
+                      <ul>
+                        <li>SSC from <a href="https://www.rcpsc.edu.bd/" 
+                          target="_blank">Rajendrapur Cantonment Public School & College</a>
+                        <ul>
+                          <li>Group: Science</li>
+                          <li>GPA: 5.00</li>
+                        </ul>
+                        </li>
+                        <li>HSC from <a href="https://ssaac.edu.bd/" 
+                          target="_blank">Safiuddin Sarker Academy & College</a>
+                        <ul>
+                          <li>Group: Science</li>
+                          <li>GPA: 5.00</li>
+                        </ul>
+                        </li>
+                        <li>BSc(Running) in <a href="https://www.iub.edu.bd/"
+                            target="_blank">Independent University, Bangladesh</a>
+                            <ul>
+                              <li>Department: Computer Science</li>
+                              <li>CGPA: 3.07</li>
+                            </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <h2 class="card-title">Skills</h2>
+                      <ul>
+                        <li>Communication</li>
+                        <li>Leadership</li>
+                        <li>Problem Solving</li>
+                        <li>Time Management</li>
+                        <li>Teamwork</li>
+                        <li>Marketing</li>
+                        <li>Planning</li>
+                        <li>Networking</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <h2 class="card-title">Languages</h2>
+                      <ul>
+                        <li>English - Advanced</li>
+                        <li>Bangla - Expert</li>
+                        <li>Hindi - Beginner</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    <style>
+      /* Add custom CSS to make cards uniform in size */
+      .github-card {
+        height: 100%;
+      }
+    </style>
+
+    <section id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">Portfolio</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">Achievements</h2>
+                <ul>
+                  <li>Received Bronze, Silver and Gold Award from the <a href="https://deabd.org/" 
+                    target="_blank">Duke of Edinburgh’s International Award</a></li>
+                    <li>Received ‘Shera Pathok’ award from <a href="https://bskbd.org/mobile-library" 
+                      target="_blank">Bishwo Shahitto Kendro</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">Trainings</h2>
+                <ul>
+                  <li>Complited MS Office Course from <a href="https://www.facebook.com/icdbbd" 
+                    target="_blank">Institute of Career Development, Bangladesh - ICDB</a></li>
+                  <li>Complited Team Building Workshop from <a href="https://bongodev.com/" 
+                    target="_blank">BongoDev</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">Projects</h2>
+                <h5>Here are some of my works.</h5>
+                <div class="row" id="repository-container"> </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>      
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">Contact</h2>
+                <h5>Feel free to contact me...</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <h3>Get In Touch</h3>
+            <div class="contact-links d-flex flex-column mt-4">
+              <a href="tel:0178966285"><i class="fas fa-phone-alt mb-4"></i> 01789166285</a>
+              <a href="mailto:saikatt.iub@gmail.com"><i class="fas fa-envelope mb-4"></i> saikatt.iub@gmail.com</a>
+              <a href="https://siffglucose.com" target="_blank"><i class="fas fa-globe mb-4"></i> siff.me</a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <h3>Social Profiles</h3>
+            <ul class="social-profiles list-unstyled">
+              <li><a href="https://www.facebook.com/saikattxn" target="_blank"><i 
+                class="fab fa-facebook"></i> Facebook</a></li>
+              <li><a href="https://www.linkedin.com/in/saikattxn/" target="_blank"><i
+                class="fab fa-linkedin"></i> LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/dimpsysif/" target="_blank"><i
+                class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    function toggleDarkMode() {
+      const themeIcon = document.getElementById('themeIcon');
+      if (document.body.dataset.bsTheme === 'dark') {
+        document.body.dataset.bsTheme = 'light';
+        themeIcon.classList.remove('fa-moon');
+        themeIcon.classList.add('fa-sun');
+      } else {
+        document.body.dataset.bsTheme = 'dark';
+        themeIcon.classList.remove('fa-sun');
+        themeIcon.classList.add('fa-moon');
+      }
+    }
+  </script>
+  <script>
+    const username = 'saikattxn';
+    const apiUrl = `https://api.github.com/users/${username}/repos`;
+
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(repositories => {
+        const container = document.getElementById('repository-container');
+
+        repositories.forEach(repo => {
+          const name = repo.name;
+          const url = repo.html_url;
+
+          const colDiv = document.createElement('div');
+          colDiv.className = 'col-md-6 mt-4';
+
+          const cardDiv = document.createElement('div');
+          cardDiv.className = 'card github-card';
+
+          const cardBodyDiv = document.createElement('div');
+          cardBodyDiv.className = 'card-body';
+
+          const cardTitle = document.createElement('h2');
+          const titleLink = document.createElement('a');
+          titleLink.href = url;
+          titleLink.textContent = name;
+          cardTitle.appendChild(titleLink);
+
+          const logoLink = document.createElement('a');
+          logoLink.href = url;
+          logoLink.className = 'text-decoration-none';
+          const githubLogo = document.createElement('i');
+          githubLogo.className = 'fab fa-github fa-5x github-logo';
+          logoLink.appendChild(githubLogo);
+
+          cardBodyDiv.appendChild(cardTitle);
+          cardBodyDiv.appendChild(logoLink);
+
+          cardDiv.appendChild(cardBodyDiv);
+          colDiv.appendChild(cardDiv);
+
+          container.appendChild(colDiv);
+        });
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      });
+
+  </script>
+
+
+</body>
+
+</html>
